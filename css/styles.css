@@ -18,12 +18,10 @@ h3{
 	font-weight: bold;
 }
 .inner{
-	margin: auto;
 	width: 40%;
 	background-color: white;
 	padding: 4%;
-	margin-top: 4%;
-	margin-bottom: 10%;
+	margin: auto;
 }
 .Heading{
 	font-size: 1.6rem;
@@ -56,8 +54,8 @@ h3{
 .name:hover{
 	color: blue;
 }
-@media(max-width: 768px){
+@media only screen and (max-width: 768px){
 .inner{
-	width: 70%;
+	width: 80%;
 }
 }
