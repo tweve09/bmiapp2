@@ -1,0 +1,63 @@
+button{
+	display: block;
+	margin-top: 4%;
+	padding: 1%;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	background-color: blue;
+}
+button:hover{
+	background-color: lightblue;
+
+}
+h3{
+	text-align: center;
+	padding: 1%;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.inner{
+	margin: auto;
+	width: 40%;
+	background-color: white;
+	padding: 4%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+}
+.Heading{
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.label1{
+	font-family: serif;
+}
+.label2{
+	font-family: serif;
+}
+.repeat{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 2%;
+}
+.name{
+	font-family: serif;
+	font-weight: bold;
+	text-align: right;
+	color: red;
+	margin: 0;
+}
+.name:hover{
+	color: blue;
+}
+@media(max-width: 768px){
+.inner{
+	width: 70%;
+}
+}
